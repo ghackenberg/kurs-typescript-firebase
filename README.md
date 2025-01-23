@@ -24,34 +24,34 @@ Im Folgenden werden die einzelnen Kategorien genauer beschrieben.
 
 Die Projektkonfiguration umfasst die folgenden drei Dateien:
 
-* [📄 package.json](./package.json) - Konfiguration der Entwicklerskripte und Abhängigkeiten
-* [📄 tsconfig.json](./tsconfig.json) - Konfiguration der Kompilierung mit TypeScript
-* [📄 webpack.config.js](./webpack.config.js) - Konfiguration der Bündelung mit Webpack
+* 📄 [package.json](./package.json) - Konfiguration der Entwicklerskripte und Abhängigkeiten
+* 📄 [tsconfig.json](./tsconfig.json) - Konfiguration der Kompilierung mit TypeScript
+* 📄 [webpack.config.js](./webpack.config.js) - Konfiguration der Bündelung mit Webpack
 
 ### 1.2. Öffentliche Dateien
 
 Öffentliche Dateien werden **direkt (ohne Bündelung mit Webpack)** vom Web-Server bereitgestellt:
 
-* [📂 public](./public/) - Weitere öffentliche Dateien der Webanwendung
-    * [📄 index.html](./public/index.html) - HTML-Dokument
-    * [📄 style.css](./public/style.css) - CSS-Dokument
+* 📂 [public](./public/) - Weitere öffentliche Dateien der Webanwendung
+    * 📄 [index.html](./public/index.html) - HTML-Dokument
+    * 📄 [style.css](./public/style.css) - CSS-Dokument
 
 ### 1.3. Quelldateien (TypeScript)
 
 Quelldateien werden **indirekt (nach Bündelung mit Webpack)** vom Web-Server bereitgestellt:
 
-* [📂 src](./src/) - TypeScript Quellen der Webanwendung
-    * [📂 schemas](./src/schemas/) - Dokumenteninhalte in Firestore
-        * [📄 todo.ts](./src/schemas/todo.ts) - Todo-Dokumenteninhalt
-    * [📂 documents](./src/documents/) - Dokumente in Firestore
-        * [📄 todo.ts](./src/documents/todo.ts) - Todo-Dokument
-    * [📂 collections](./src/collections/) - Sammlungen in Firestore
-        * [📄 todo.ts](./src/collections/todo.ts) - Todo-Sammlung
-    * [📂 components](./src/components/) - Eigene React-Komponenten
-        * [📄 app.tsx](./src/components/app.tsx) - Anwendungskomponente
-        * [📄 todo.tsx](./src/components/todo.tsx) - Todo-Komponente
-    * [📄 firebase.ts](./src/firebase.ts) - Firebase-Konfiguration
-    * [📄 main.tsx](./src/main.tsx) - Einstieg in die Webanwendung
+* 📂 [src](./src/) - TypeScript Quellen der Webanwendung
+    * 📂 [schemas](./src/schemas/) - Dokumenteninhalte in Firestore
+        * 📄 [todo.ts](./src/schemas/todo.ts) - Todo-Dokumenteninhalt
+    * 📂 [documents](./src/documents/) - Dokumente in Firestore
+        * 📄 [todo.ts](./src/documents/todo.ts) - Todo-Dokument
+    * 📂 [collections](./src/collections/) - Sammlungen in Firestore
+        * 📄 [todo.ts](./src/collections/todo.ts) - Todo-Sammlung
+    * 📂 [components](./src/components/) - Eigene React-Komponenten
+        * 📄 [app.tsx](./src/components/app.tsx) - Anwendungskomponente
+        * 📄 [todo.tsx](./src/components/todo.tsx) - Todo-Komponente
+    * 📄 [firebase.ts](./src/firebase.ts) - Firebase-Konfiguration
+    * 📄 [main.tsx](./src/main.tsx) - Einstieg in die Webanwendung
 
 ### 1.4. Bündeldateien (JavaScript) [*nicht im Repository enthalten*]
 
