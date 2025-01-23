@@ -1,13 +1,15 @@
 # 📖 Kurs TypeScript/Firebase
 
-*Kommt bald*
+![](./doc/social.png)
 
-1. Dateistruktur
-1. Abhängigkeiten
-1. Entwicklerskripte
-1. Sonstiges
+Dieses Dokument enthält die folgenden Abschnitte:
 
-...
+1. **Dateistruktur** - Erklärung der Dateistruktur des Repositories
+1. **Abhängigkeiten** - Erklärung der Abhängigkeiten zu anderen Paketen
+1. **Entwicklerskripte** - Erklärung der Skripte für Entwickler der Web-Anwendung
+1. **Sonstiges** - Erklärung sonstiger Inhalte des Repositories
+
+Viel Spaß beim Lesen! Bei Fragen gerne melden unter georg.hackenberg@fh-wels.at.
 
 ## 📑 1. Dateistruktur
 
