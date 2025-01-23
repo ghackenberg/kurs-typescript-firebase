@@ -1,0 +1,7 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    "typescript.preferences.quoteStyle": "single",
+    "typescript.format.semicolons": "remove"
+}

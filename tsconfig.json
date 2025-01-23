@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+
+        // Aktivierung von XML in TypeScript und JavaScript-Dateien
+        "jsx": "react-jsxdev"
+    }
+}

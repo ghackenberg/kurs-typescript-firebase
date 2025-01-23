@@ -1,0 +1,13 @@
+body {
+    margin: 1em;
+}
+ul {
+    padding: 0;
+    list-style: none;
+}
+form {
+    margin: 0;
+}
+input {
+    padding: 1em;
+}
